@@ -1,0 +1,62 @@
+[
+    {
+        "id": "afbee524-5972-4075-8800-7d1f9d7b0a0c",
+        "status": "InSale",
+        "brand": "Santa Cruz",
+        "model": "Hightower 2",
+        "year": 2023,
+        "imageUrl": "https://piwnicarowerowa.pl/img/25576/santa-cruz-hightower-2-aluminium-29-smoke-grey-d",
+        "publicationDate": "2023-07-07T00:00:00Z",
+        "author": "Author Name",
+        "frame": [
+            {
+                "name": "Aluminum",
+                "price": 1000.0
+            },
+            {
+                "name": "Carbon",
+                "price": 1500.0
+            }
+        ],
+        "handlebar": [
+            {
+                "name": "Riser",
+                "price": 200.0
+            }
+        ],
+        "brakes": [
+            {
+                "name": "Disc",
+                "price": 300.0
+            }
+        ],
+        "wheelsTires": [
+            {
+                "name": "29-inch",
+                "price": 400.0
+            }
+        ],
+        "seat": [
+            {
+                "name": "Mountain",
+                "price": 150.0
+            }
+        ],
+        "derailleursDrive": [
+            {
+                "name": "Shimano",
+                "price": 500.0
+            }
+        ],
+        "additionalAccessories": [
+            {
+                "name": "Bell",
+                "price": 20.0
+            },
+            {
+                "name": "Lights",
+                "price": 50.0
+            }
+        ]
+    }
+]

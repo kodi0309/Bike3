@@ -1,0 +1,6 @@
+@SaleFinder_HostAddress = http://localhost:5273
+
+GET {{SaleFinder_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
