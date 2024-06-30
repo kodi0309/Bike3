@@ -1,0 +1,6 @@
+@Srv_Config_HostAddress = http://localhost:5031
+
+GET {{Srv_Config_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -21,7 +21,7 @@ public class SaleFinder : ControllerBase
 
         query = findProp.OrderBy switch
         {
-            "brand" => query.Sort(x => x.Ascending(a => a.Brand)),
+            "brand" => query.Sort(x => x.Ascending(a => a.Brand)).Sort(x => x.Ascending(a => a.Model)),
             "model" => query.Sort(x => x.Ascending(a => a.Model)),
             _ => query.Sort(x => x.Ascending(a => a.Brand))
         };

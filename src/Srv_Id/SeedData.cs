@@ -14,6 +14,12 @@ public class SeedData
     {
             using var scope = app.Services.GetRequiredService<IServiceScopeFactory>().CreateScope();
             var context = scope.ServiceProvider.GetService<ApplicationDbContext>();
+            
+            if (context == null)
+            {
+                throw new Exception("ApplicationDbContext is not available");
+            }
+            
             context.Database.Migrate();
 
             var userMgr = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
